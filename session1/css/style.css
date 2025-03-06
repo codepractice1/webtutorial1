@@ -1,1 +1,33 @@
 
+
+        /* Basic styling for layout */
+body {
+            font-family: Arial, sans-serif; /* Sets the font style for the entire page */
+            margin: 0; /* Removes default margin */
+            padding: 0; /* Removes default padding */
+            text-align: center; /* Centers text content */
+        }
+        
+        /* Adds padding, margin, and border to key sections */
+        header, nav, main, section, footer {
+            padding: 20px; /* Adds space inside the elements */
+            border: 1px solid #ddd; /* Adds a light gray border */
+            margin: 10px; /* Adds space around the elements */
+        }
+        
+        /* Styles the logo image */
+        .logo {
+            max-width: 100px; /* Limits the maximum width of the logo */
+        }
+        
+        /* Styles the sections container to align content horizontally */
+        .sections {
+            display: flex; /* Enables flexbox layout */
+            justify-content: space-around; /* Spaces the sections evenly */
+        }
+        
+        /* Styles individual sections */
+        .section {
+            width: 45%; /* Sets the width of each section to take almost half the space */
+        }
+ 
