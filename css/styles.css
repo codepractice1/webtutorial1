@@ -61,7 +61,7 @@ nav a {
   max-width: 80%; /* limit text width for better readability */
   margin: 0 auto; /* center text */
 }
-.section {
+.sections {
   display: flex; /* enables side-by-side layout */
   justify-content: space-around; /* spaces sections evenly */
   padding: 20px; 
